@@ -1,0 +1,2 @@
+1.com.cloud.api.query.QueryManagerImpl
+注释掉：line 2392-2394。因为省级管理员配置网络服务方案，需要权限。

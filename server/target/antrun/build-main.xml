@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="D:\workspace\eclipse\stockii-invest\server/target/conf" overwrite="true">
+    <fileset dir="D:\workspace\eclipse\stockii-invest\server/conf">
+      <include name="*.in"/>
+    </fileset>
+    <globmapper to="*" from="*.in"/>
+    <filterchain>
+      <filterreader classname="org.apache.tools.ant.filters.ReplaceTokens">
+        <param value="build/replace.properties" type="propertiesfile"/>
+      </filterreader>
+    </filterchain>
+  </copy>
+  <copy todir="D:\workspace\eclipse\stockii-invest\server/target/conf">
+    <fileset dir="D:\workspace\eclipse\stockii-invest\server/conf">
+      <exclude name="*.in"/>
+    </fileset>
+  </copy>
+</target>
+</project>

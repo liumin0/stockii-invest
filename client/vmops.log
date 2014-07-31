@@ -1,0 +1,502 @@
+2014-07-31 00:11:14,441 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization started
+2014-07-31 00:11:14,549 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Jul 31 00:11:14 CST 2014]; root of context hierarchy
+2014-07-31 00:11:14,590 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [applicationContext.xml]
+2014-07-31 00:11:14,991 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 00:11:15,023 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'transactionContextBuilder' of type [class com.cloud.utils.db.TransactionContextBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 00:11:15,026 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'actionEventInterceptor' of type [class com.cloud.event.ActionEventInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 00:11:15,038 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@167459b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,componentContext,transactionContextBuilder,actionEventInterceptor,instantiatePostProcessor,onwireRegistry,messageSerializer,transportProvider,rpcProvider,messageBus,apiServlet,apiServer,apiDispatcher,entityManagerImpl,stockInvestManagerImpl,stockBasicInfoDaoImpl,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2014-07-31 00:11:15,042 INFO  [utils.component.ComponentContext] (main:null) Setup Spring Application context
+2014-07-31 00:11:15,423 DEBUG [utils.crypt.EncryptionSecretKeyChecker] (main:null) Encryption Type: none
+2014-07-31 00:11:15,488 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization completed in 1046 ms
+2014-07-31 00:11:15,514 INFO  [cloud.utils.LogUtils] (main:null) log4j configuration found at D:\workspace\eclipse\stockii-invest\client\target\stockii-client-ui-1.0\WEB-INF\classes\log4j-cloud.xml
+2014-07-31 00:11:15,526 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 00:11:15,526 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 00:11:15,646 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_d0d56c16
+2014-07-31 00:11:15,647 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_b761e843
+2014-07-31 00:11:15,647 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.api.ApiServer_EnhancerByCloudStack_1f5a69f6
+2014-07-31 00:11:15,647 DEBUG [cloud.api.ApiServer] (Timer-2:null) Discovered plugin StockInvestManagerImpl_EnhancerByCloudStack_1c5e742b
+2014-07-31 00:11:15,674 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_1c5e742b
+2014-07-31 00:11:15,674 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_d0d56c16
+2014-07-31 00:11:15,674 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_b761e843
+2014-07-31 00:11:15,674 INFO  [cloud.api.ApiServer] (Thread-8:null) ApiServer listening on port 8096
+2014-07-31 00:11:15,674 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.api.ApiServer_EnhancerByCloudStack_1f5a69f6
+2014-07-31 00:11:15,675 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_1c5e742b
+2014-07-31 00:19:00,847 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization started
+2014-07-31 00:19:00,968 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Jul 31 00:19:00 CST 2014]; root of context hierarchy
+2014-07-31 00:19:01,016 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [applicationContext.xml]
+2014-07-31 00:19:01,467 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 00:19:01,490 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'transactionContextBuilder' of type [class com.cloud.utils.db.TransactionContextBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 00:19:01,494 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'actionEventInterceptor' of type [class com.cloud.event.ActionEventInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 00:19:01,514 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@107c51a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,componentContext,transactionContextBuilder,actionEventInterceptor,instantiatePostProcessor,onwireRegistry,messageSerializer,transportProvider,rpcProvider,messageBus,apiServlet,apiServer,apiDispatcher,entityManagerImpl,stockInvestManagerImpl,stockBasicInfoDaoImpl,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2014-07-31 00:19:01,517 INFO  [utils.component.ComponentContext] (main:null) Setup Spring Application context
+2014-07-31 00:19:01,841 DEBUG [utils.crypt.EncryptionSecretKeyChecker] (main:null) Encryption Type: none
+2014-07-31 00:19:01,897 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization completed in 1040 ms
+2014-07-31 00:19:01,922 INFO  [cloud.utils.LogUtils] (main:null) log4j configuration found at D:\workspace\eclipse\stockii-invest\client\target\stockii-client-ui-1.0\WEB-INF\classes\log4j-cloud.xml
+2014-07-31 00:19:01,935 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 00:19:01,935 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 00:19:02,055 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_f9aa6eab
+2014-07-31 00:19:02,056 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_e036ead8
+2014-07-31 00:19:02,056 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.api.ApiServer_EnhancerByCloudStack_482f6c8b
+2014-07-31 00:19:02,057 DEBUG [cloud.api.ApiServer] (Timer-2:null) Discovered plugin StockInvestManagerImpl_EnhancerByCloudStack_453376c0
+2014-07-31 00:19:02,084 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_453376c0
+2014-07-31 00:19:02,084 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_f9aa6eab
+2014-07-31 00:19:02,084 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_e036ead8
+2014-07-31 00:19:02,084 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.api.ApiServer_EnhancerByCloudStack_482f6c8b
+2014-07-31 00:19:02,084 INFO  [cloud.api.ApiServer] (Thread-8:null) ApiServer listening on port 8096
+2014-07-31 00:19:02,084 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_453376c0
+2014-07-31 00:19:07,106 DEBUG [cloud.api.ApiServlet] (291026@qtp-1288361-0:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=listStockBasicInfo
+2014-07-31 00:19:07,631 DEBUG [cloud.api.ApiServlet] (291026@qtp-1288361-0:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=listStockBasicInfo
+2014-07-31 21:39:06,262 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization started
+2014-07-31 21:39:06,403 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Jul 31 21:39:06 CST 2014]; root of context hierarchy
+2014-07-31 21:39:06,485 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [applicationContext.xml]
+2014-07-31 21:39:07,054 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 21:39:07,099 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'transactionContextBuilder' of type [class com.cloud.utils.db.TransactionContextBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 21:39:07,105 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'actionEventInterceptor' of type [class com.cloud.event.ActionEventInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 21:39:07,126 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d1ca1b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,componentContext,transactionContextBuilder,actionEventInterceptor,instantiatePostProcessor,onwireRegistry,messageSerializer,transportProvider,rpcProvider,messageBus,apiServlet,apiServer,apiDispatcher,entityManagerImpl,stockInvestManagerImpl,stockBasicInfoDaoImpl,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2014-07-31 21:39:07,136 INFO  [utils.component.ComponentContext] (main:null) Setup Spring Application context
+2014-07-31 21:39:07,541 DEBUG [utils.crypt.EncryptionSecretKeyChecker] (main:null) Encryption Type: none
+2014-07-31 21:39:07,622 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization completed in 1346 ms
+2014-07-31 21:39:07,649 INFO  [cloud.utils.LogUtils] (main:null) log4j configuration found at D:\workspace\eclipse\stockii-invest\client\target\stockii-client-ui-1.0\WEB-INF\classes\log4j-cloud.xml
+2014-07-31 21:39:07,660 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 21:39:07,660 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 21:39:07,779 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_a4a11c1c
+2014-07-31 21:39:07,780 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_8b2d9849
+2014-07-31 21:39:07,780 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.api.ApiServer_EnhancerByCloudStack_f32619fc
+2014-07-31 21:39:07,780 DEBUG [cloud.api.ApiServer] (Timer-2:null) Discovered plugin StockInvestManagerImpl_EnhancerByCloudStack_f02a2431
+2014-07-31 21:39:07,822 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_f02a2431
+2014-07-31 21:39:07,822 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_a4a11c1c
+2014-07-31 21:39:07,822 INFO  [cloud.api.ApiServer] (Thread-8:null) ApiServer listening on port 8096
+2014-07-31 21:39:07,823 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_8b2d9849
+2014-07-31 21:39:07,823 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.api.ApiServer_EnhancerByCloudStack_f32619fc
+2014-07-31 21:39:07,823 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_f02a2431
+2014-07-31 21:39:26,614 DEBUG [cloud.api.ApiServlet] (25019323@qtp-18446420-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=listStockBasicInfo
+2014-07-31 21:39:27,330 DEBUG [cloud.api.ApiServlet] (25019323@qtp-18446420-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=listStockBasicInfo
+2014-07-31 21:39:35,022 DEBUG [cloud.api.ApiServlet] (25019323@qtp-18446420-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 21:39:35,022 WARN  [cloud.api.ApiServer] (25019323@qtp-18446420-2:null) Unknown API command: getStockDayInfo
+2014-07-31 21:39:35,032 INFO  [cloud.api.ApiServer] (25019323@qtp-18446420-2:null) Unknown API command: getStockDayInfo
+2014-07-31 21:39:35,033 DEBUG [cloud.api.ApiServlet] (25019323@qtp-18446420-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 21:39:46,303 DEBUG [cloud.api.ApiServlet] (25019323@qtp-18446420-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 21:39:46,303 WARN  [cloud.api.ApiServer] (25019323@qtp-18446420-2:null) Unknown API command: getStockDayInfo
+2014-07-31 21:39:46,304 INFO  [cloud.api.ApiServer] (25019323@qtp-18446420-2:null) Unknown API command: getStockDayInfo
+2014-07-31 21:39:46,305 DEBUG [cloud.api.ApiServlet] (25019323@qtp-18446420-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 21:39:54,857 DEBUG [cloud.api.ApiServlet] (25019323@qtp-18446420-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=listStockBasicInfo
+2014-07-31 21:39:55,073 DEBUG [cloud.api.ApiServlet] (25019323@qtp-18446420-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=listStockBasicInfo
+2014-07-31 21:52:43,539 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization started
+2014-07-31 21:52:43,576 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Jul 31 21:52:43 CST 2014]; root of context hierarchy
+2014-07-31 21:52:43,604 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [applicationContext.xml]
+2014-07-31 21:52:43,811 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 21:52:43,830 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'transactionContextBuilder' of type [class com.cloud.utils.db.TransactionContextBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 21:52:43,833 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'actionEventInterceptor' of type [class com.cloud.event.ActionEventInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 21:52:43,843 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7d9cbb: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,componentContext,transactionContextBuilder,actionEventInterceptor,instantiatePostProcessor,onwireRegistry,messageSerializer,transportProvider,rpcProvider,messageBus,apiServlet,apiServer,apiDispatcher,entityManagerImpl,stockInvestManagerImpl,stockBasicInfoDaoImpl,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2014-07-31 21:52:43,846 INFO  [utils.component.ComponentContext] (main:null) Setup Spring Application context
+2014-07-31 21:52:44,043 DEBUG [utils.crypt.EncryptionSecretKeyChecker] (main:null) Encryption Type: none
+2014-07-31 21:52:44,078 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization completed in 538 ms
+2014-07-31 21:52:44,101 INFO  [cloud.utils.LogUtils] (main:null) log4j configuration found at D:\workspace\eclipse\stockii-invest\client\target\stockii-client-ui-1.0\WEB-INF\classes\log4j-cloud.xml
+2014-07-31 21:52:44,112 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 21:52:44,112 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 21:52:44,219 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_22f40a33
+2014-07-31 21:52:44,221 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_9808660
+2014-07-31 21:52:44,222 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.api.ApiServer_EnhancerByCloudStack_71790813
+2014-07-31 21:52:44,222 DEBUG [cloud.api.ApiServer] (Timer-2:null) Discovered plugin StockInvestManagerImpl_EnhancerByCloudStack_6e7d1248
+2014-07-31 21:52:44,231 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_6e7d1248
+2014-07-31 21:52:44,231 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_22f40a33
+2014-07-31 21:52:44,231 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_9808660
+2014-07-31 21:52:44,231 INFO  [cloud.api.ApiServer] (Thread-8:null) ApiServer listening on port 8096
+2014-07-31 21:52:44,231 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.api.ApiServer_EnhancerByCloudStack_71790813
+2014-07-31 21:52:44,231 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_6e7d1248
+2014-07-31 21:52:53,970 DEBUG [cloud.api.ApiServlet] (291026@qtp-1288361-0:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 21:52:53,970 WARN  [cloud.api.ApiServer] (291026@qtp-1288361-0:null) Unknown API command: getStockDayInfo
+2014-07-31 21:52:53,972 INFO  [cloud.api.ApiServer] (291026@qtp-1288361-0:null) Unknown API command: getStockDayInfo
+2014-07-31 21:52:53,973 DEBUG [cloud.api.ApiServlet] (291026@qtp-1288361-0:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 21:54:30,479 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization started
+2014-07-31 21:54:30,517 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Jul 31 21:54:30 CST 2014]; root of context hierarchy
+2014-07-31 21:54:30,544 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [applicationContext.xml]
+2014-07-31 21:54:30,752 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 21:54:30,769 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'transactionContextBuilder' of type [class com.cloud.utils.db.TransactionContextBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 21:54:30,772 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'actionEventInterceptor' of type [class com.cloud.event.ActionEventInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 21:54:30,781 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@bce86d: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,componentContext,transactionContextBuilder,actionEventInterceptor,instantiatePostProcessor,onwireRegistry,messageSerializer,transportProvider,rpcProvider,messageBus,apiServlet,apiServer,apiDispatcher,entityManagerImpl,stockInvestManagerImpl,stockBasicInfoDaoImpl,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2014-07-31 21:54:30,784 INFO  [utils.component.ComponentContext] (main:null) Setup Spring Application context
+2014-07-31 21:54:30,980 DEBUG [utils.crypt.EncryptionSecretKeyChecker] (main:null) Encryption Type: none
+2014-07-31 21:54:31,014 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization completed in 534 ms
+2014-07-31 21:54:31,037 INFO  [cloud.utils.LogUtils] (main:null) log4j configuration found at D:\workspace\eclipse\stockii-invest\client\target\stockii-client-ui-1.0\WEB-INF\classes\log4j-cloud.xml
+2014-07-31 21:54:31,047 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 21:54:31,048 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 21:54:31,151 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_12a70f43
+2014-07-31 21:54:31,152 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_f9338b70
+2014-07-31 21:54:31,152 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.api.ApiServer_EnhancerByCloudStack_612c0d23
+2014-07-31 21:54:31,152 DEBUG [cloud.api.ApiServer] (Timer-2:null) Discovered plugin StockInvestManagerImpl_EnhancerByCloudStack_5e301758
+2014-07-31 21:54:31,163 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_5e301758
+2014-07-31 21:54:31,163 INFO  [cloud.api.ApiServer] (Thread-8:null) ApiServer listening on port 8096
+2014-07-31 21:54:31,163 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_12a70f43
+2014-07-31 21:54:31,164 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_f9338b70
+2014-07-31 21:54:31,164 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.api.ApiServer_EnhancerByCloudStack_612c0d23
+2014-07-31 21:54:31,164 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_5e301758
+2014-07-31 21:54:37,289 DEBUG [cloud.api.ApiServlet] (291026@qtp-1288361-0:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 21:54:37,289 WARN  [cloud.api.ApiServer] (291026@qtp-1288361-0:null) Unknown API command: getStockDayInfo
+2014-07-31 21:54:37,290 INFO  [cloud.api.ApiServer] (291026@qtp-1288361-0:null) Unknown API command: getStockDayInfo
+2014-07-31 21:54:37,292 DEBUG [cloud.api.ApiServlet] (291026@qtp-1288361-0:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 21:54:38,720 DEBUG [cloud.api.ApiServlet] (27177274@qtp-1288361-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 21:54:38,721 WARN  [cloud.api.ApiServer] (27177274@qtp-1288361-2:null) Unknown API command: getStockDayInfo
+2014-07-31 21:54:38,722 INFO  [cloud.api.ApiServer] (27177274@qtp-1288361-2:null) Unknown API command: getStockDayInfo
+2014-07-31 21:54:38,724 DEBUG [cloud.api.ApiServlet] (27177274@qtp-1288361-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 21:54:39,161 DEBUG [cloud.api.ApiServlet] (27177274@qtp-1288361-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 21:54:39,161 WARN  [cloud.api.ApiServer] (27177274@qtp-1288361-2:null) Unknown API command: getStockDayInfo
+2014-07-31 21:54:39,162 INFO  [cloud.api.ApiServer] (27177274@qtp-1288361-2:null) Unknown API command: getStockDayInfo
+2014-07-31 21:54:39,162 DEBUG [cloud.api.ApiServlet] (27177274@qtp-1288361-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 21:54:39,318 DEBUG [cloud.api.ApiServlet] (27177274@qtp-1288361-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 21:54:39,318 WARN  [cloud.api.ApiServer] (27177274@qtp-1288361-2:null) Unknown API command: getStockDayInfo
+2014-07-31 21:54:39,318 INFO  [cloud.api.ApiServer] (27177274@qtp-1288361-2:null) Unknown API command: getStockDayInfo
+2014-07-31 21:54:39,318 DEBUG [cloud.api.ApiServlet] (27177274@qtp-1288361-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 21:54:39,495 DEBUG [cloud.api.ApiServlet] (27177274@qtp-1288361-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 21:54:39,496 WARN  [cloud.api.ApiServer] (27177274@qtp-1288361-2:null) Unknown API command: getStockDayInfo
+2014-07-31 21:54:39,496 INFO  [cloud.api.ApiServer] (27177274@qtp-1288361-2:null) Unknown API command: getStockDayInfo
+2014-07-31 21:54:39,496 DEBUG [cloud.api.ApiServlet] (27177274@qtp-1288361-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 21:54:39,649 DEBUG [cloud.api.ApiServlet] (27177274@qtp-1288361-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 21:54:39,649 WARN  [cloud.api.ApiServer] (27177274@qtp-1288361-2:null) Unknown API command: getStockDayInfo
+2014-07-31 21:54:39,650 INFO  [cloud.api.ApiServer] (27177274@qtp-1288361-2:null) Unknown API command: getStockDayInfo
+2014-07-31 21:54:39,650 DEBUG [cloud.api.ApiServlet] (27177274@qtp-1288361-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 21:54:39,825 DEBUG [cloud.api.ApiServlet] (27177274@qtp-1288361-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 21:54:39,826 WARN  [cloud.api.ApiServer] (27177274@qtp-1288361-2:null) Unknown API command: getStockDayInfo
+2014-07-31 21:54:39,826 INFO  [cloud.api.ApiServer] (27177274@qtp-1288361-2:null) Unknown API command: getStockDayInfo
+2014-07-31 21:54:39,827 DEBUG [cloud.api.ApiServlet] (27177274@qtp-1288361-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:04:19,846 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization started
+2014-07-31 22:04:19,882 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Jul 31 22:04:19 CST 2014]; root of context hierarchy
+2014-07-31 22:04:19,909 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [applicationContext.xml]
+2014-07-31 22:04:20,117 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:04:20,134 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'transactionContextBuilder' of type [class com.cloud.utils.db.TransactionContextBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 22:04:20,137 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'actionEventInterceptor' of type [class com.cloud.event.ActionEventInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 22:04:20,146 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1499b74: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,componentContext,transactionContextBuilder,actionEventInterceptor,instantiatePostProcessor,onwireRegistry,messageSerializer,transportProvider,rpcProvider,messageBus,apiServlet,apiServer,apiDispatcher,entityManagerImpl,stockInvestManagerImpl,stockBasicInfoDaoImpl,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2014-07-31 22:04:20,148 INFO  [utils.component.ComponentContext] (main:null) Setup Spring Application context
+2014-07-31 22:04:20,350 DEBUG [utils.crypt.EncryptionSecretKeyChecker] (main:null) Encryption Type: none
+2014-07-31 22:04:20,384 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization completed in 537 ms
+2014-07-31 22:04:20,405 INFO  [cloud.utils.LogUtils] (main:null) log4j configuration found at D:\workspace\eclipse\stockii-invest\client\target\stockii-client-ui-1.0\WEB-INF\classes\log4j-cloud.xml
+2014-07-31 22:04:20,416 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:04:20,417 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:04:20,516 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_10ff1bf4
+2014-07-31 22:04:20,517 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_f78b9821
+2014-07-31 22:04:20,517 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.api.ApiServer_EnhancerByCloudStack_5f8419d4
+2014-07-31 22:04:20,517 DEBUG [cloud.api.ApiServer] (Timer-2:null) Discovered plugin StockInvestManagerImpl_EnhancerByCloudStack_5c882409
+2014-07-31 22:04:20,528 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_5c882409
+2014-07-31 22:04:20,528 INFO  [cloud.api.ApiServer] (Thread-8:null) ApiServer listening on port 8096
+2014-07-31 22:04:20,528 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_10ff1bf4
+2014-07-31 22:04:20,529 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_f78b9821
+2014-07-31 22:04:20,529 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.api.ApiServer_EnhancerByCloudStack_5f8419d4
+2014-07-31 22:04:20,529 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_5c882409
+2014-07-31 22:04:25,205 DEBUG [cloud.api.ApiServlet] (6158942@qtp-4665857-0:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:04:25,205 WARN  [cloud.api.ApiServer] (6158942@qtp-4665857-0:null) Unknown API command: getStockDayInfo
+2014-07-31 22:04:25,206 INFO  [cloud.api.ApiServer] (6158942@qtp-4665857-0:null) Unknown API command: getStockDayInfo
+2014-07-31 22:04:25,208 DEBUG [cloud.api.ApiServlet] (6158942@qtp-4665857-0:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:04:28,827 DEBUG [cloud.api.ApiServlet] (13810457@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=listStockBasicInfo
+2014-07-31 22:04:29,289 DEBUG [cloud.api.ApiServlet] (13810457@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=listStockBasicInfo
+2014-07-31 22:04:32,484 DEBUG [cloud.api.ApiServlet] (13810457@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:04:32,484 WARN  [cloud.api.ApiServer] (13810457@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:04:32,484 INFO  [cloud.api.ApiServer] (13810457@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:04:32,484 DEBUG [cloud.api.ApiServlet] (13810457@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:05,746 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization started
+2014-07-31 22:05:05,783 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Jul 31 22:05:05 CST 2014]; root of context hierarchy
+2014-07-31 22:05:05,811 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [applicationContext.xml]
+2014-07-31 22:05:06,024 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:05:06,042 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'transactionContextBuilder' of type [class com.cloud.utils.db.TransactionContextBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 22:05:06,045 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'actionEventInterceptor' of type [class com.cloud.event.ActionEventInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 22:05:06,056 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1499b74: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,componentContext,transactionContextBuilder,actionEventInterceptor,instantiatePostProcessor,onwireRegistry,messageSerializer,transportProvider,rpcProvider,messageBus,apiServlet,apiServer,apiDispatcher,entityManagerImpl,stockInvestManagerImpl,stockBasicInfoDaoImpl,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2014-07-31 22:05:06,060 INFO  [utils.component.ComponentContext] (main:null) Setup Spring Application context
+2014-07-31 22:05:06,257 DEBUG [utils.crypt.EncryptionSecretKeyChecker] (main:null) Encryption Type: none
+2014-07-31 22:05:06,291 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization completed in 544 ms
+2014-07-31 22:05:06,312 INFO  [cloud.utils.LogUtils] (main:null) log4j configuration found at D:\workspace\eclipse\stockii-invest\client\target\stockii-client-ui-1.0\WEB-INF\classes\log4j-cloud.xml
+2014-07-31 22:05:06,322 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:05:06,323 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:05:06,422 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_10ff1bf4
+2014-07-31 22:05:06,423 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_f78b9821
+2014-07-31 22:05:06,423 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.api.ApiServer_EnhancerByCloudStack_5f8419d4
+2014-07-31 22:05:06,423 DEBUG [cloud.api.ApiServer] (Timer-2:null) Discovered plugin StockInvestManagerImpl_EnhancerByCloudStack_5c882409
+2014-07-31 22:05:06,434 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_5c882409
+2014-07-31 22:05:06,434 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_10ff1bf4
+2014-07-31 22:05:06,434 INFO  [cloud.api.ApiServer] (Thread-8:null) ApiServer listening on port 8096
+2014-07-31 22:05:06,434 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_f78b9821
+2014-07-31 22:05:06,435 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.api.ApiServer_EnhancerByCloudStack_5f8419d4
+2014-07-31 22:05:06,435 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_5c882409
+2014-07-31 22:05:09,624 DEBUG [cloud.api.ApiServlet] (6158942@qtp-4665857-0:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:09,625 WARN  [cloud.api.ApiServer] (6158942@qtp-4665857-0:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:09,626 INFO  [cloud.api.ApiServer] (6158942@qtp-4665857-0:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:09,628 DEBUG [cloud.api.ApiServlet] (6158942@qtp-4665857-0:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:11,366 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:11,366 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:11,367 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:11,369 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:11,691 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:11,691 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:11,691 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:11,692 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:12,218 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:12,218 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:12,218 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:12,218 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:12,449 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:12,449 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:12,450 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:12,450 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:12,624 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:12,625 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:12,625 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:12,625 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:12,969 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:12,969 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:12,969 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:12,969 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:13,183 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:13,183 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:13,183 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:13,183 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:13,366 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:13,367 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:13,367 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:13,367 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:13,536 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:13,537 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:13,537 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:13,537 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:13,733 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:13,733 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:13,733 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:13,734 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:13,935 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:13,936 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:13,936 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:13,936 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,008 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,008 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,009 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,009 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,509 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,509 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,509 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,510 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,592 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,592 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,592 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,592 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,623 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,623 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,623 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,623 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,689 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,689 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,690 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,690 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,757 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,757 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,757 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,757 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,789 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,790 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,790 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,790 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,893 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,893 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,893 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,893 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,897 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,897 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,897 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,897 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,969 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:15,969 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,969 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:15,969 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:16,037 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:05:16,037 WARN  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:16,037 INFO  [cloud.api.ApiServer] (31206093@qtp-4665857-2:null) Unknown API command: getStockDayInfo
+2014-07-31 22:05:16,038 DEBUG [cloud.api.ApiServlet] (31206093@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:07:14,859 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization started
+2014-07-31 22:07:14,895 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Jul 31 22:07:14 CST 2014]; root of context hierarchy
+2014-07-31 22:07:14,922 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [applicationContext.xml]
+2014-07-31 22:07:15,133 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:07:15,150 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'transactionContextBuilder' of type [class com.cloud.utils.db.TransactionContextBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 22:07:15,153 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'actionEventInterceptor' of type [class com.cloud.event.ActionEventInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 22:07:15,162 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1499b74: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,componentContext,transactionContextBuilder,actionEventInterceptor,instantiatePostProcessor,onwireRegistry,messageSerializer,transportProvider,rpcProvider,messageBus,apiServlet,apiServer,apiDispatcher,entityManagerImpl,stockInvestManagerImpl,stockBasicInfoDaoImpl,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2014-07-31 22:07:15,165 INFO  [utils.component.ComponentContext] (main:null) Setup Spring Application context
+2014-07-31 22:07:15,364 DEBUG [utils.crypt.EncryptionSecretKeyChecker] (main:null) Encryption Type: none
+2014-07-31 22:07:15,398 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization completed in 538 ms
+2014-07-31 22:07:15,420 INFO  [cloud.utils.LogUtils] (main:null) log4j configuration found at D:\workspace\eclipse\stockii-invest\client\target\stockii-client-ui-1.0\WEB-INF\classes\log4j-cloud.xml
+2014-07-31 22:07:15,430 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:07:15,430 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:07:15,592 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_48cc52da
+2014-07-31 22:07:15,593 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_2f58cf07
+2014-07-31 22:07:15,593 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.api.ApiServer_EnhancerByCloudStack_975150ba
+2014-07-31 22:07:15,593 DEBUG [cloud.api.ApiServer] (Timer-2:null) Discovered plugin StockInvestManagerImpl_EnhancerByCloudStack_94555aef
+2014-07-31 22:07:15,596 ERROR [cloud.api.ApiServer] (Timer-2:null) error initializing api server
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:96)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:374)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at com.cloud.api.ApiServer$ListenerThread.<init>(ApiServer.java:816)
+	at com.cloud.api.ApiServer.init(ApiServer.java:238)
+	at com.cloud.api.ApiServer.configure(ApiServer.java:191)
+	at com.cloud.utils.component.ComponentContext.initComponentsLifeCycle(ComponentContext.java:111)
+	at com.cloud.servlet.CloudStartupServlet$1.run(CloudStartupServlet.java:54)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 22:07:15,597 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_94555aef
+2014-07-31 22:07:15,597 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_48cc52da
+2014-07-31 22:07:15,597 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_2f58cf07
+2014-07-31 22:07:15,597 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.api.ApiServer_EnhancerByCloudStack_975150ba
+2014-07-31 22:07:15,597 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_94555aef
+2014-07-31 22:08:11,298 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization started
+2014-07-31 22:08:11,335 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Jul 31 22:08:11 CST 2014]; root of context hierarchy
+2014-07-31 22:08:11,365 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [applicationContext.xml]
+2014-07-31 22:08:11,577 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:08:11,598 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'transactionContextBuilder' of type [class com.cloud.utils.db.TransactionContextBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 22:08:11,600 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'actionEventInterceptor' of type [class com.cloud.event.ActionEventInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 22:08:11,610 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@17d0b7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,componentContext,transactionContextBuilder,actionEventInterceptor,instantiatePostProcessor,onwireRegistry,messageSerializer,transportProvider,rpcProvider,messageBus,apiServlet,apiServer,apiDispatcher,entityManagerImpl,stockInvestManagerImpl,stockBasicInfoDaoImpl,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2014-07-31 22:08:11,613 INFO  [utils.component.ComponentContext] (main:null) Setup Spring Application context
+2014-07-31 22:08:11,816 DEBUG [utils.crypt.EncryptionSecretKeyChecker] (main:null) Encryption Type: none
+2014-07-31 22:08:11,846 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization completed in 547 ms
+2014-07-31 22:08:11,872 INFO  [cloud.utils.LogUtils] (main:null) log4j configuration found at D:\workspace\eclipse\stockii-invest\client\target\stockii-client-ui-1.0\WEB-INF\classes\log4j-cloud.xml
+2014-07-31 22:08:11,883 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:08:11,883 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:08:12,048 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_f4109ab5
+2014-07-31 22:08:12,049 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_da9d16e2
+2014-07-31 22:08:12,049 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.api.ApiServer_EnhancerByCloudStack_42959895
+2014-07-31 22:08:12,049 DEBUG [cloud.api.ApiServer] (Timer-2:null) Discovered plugin StockInvestManagerImpl_EnhancerByCloudStack_3f99a2ca
+2014-07-31 22:08:12,052 ERROR [cloud.api.ApiServer] (Timer-2:null) error initializing api server
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:96)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:374)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at com.cloud.api.ApiServer$ListenerThread.<init>(ApiServer.java:816)
+	at com.cloud.api.ApiServer.init(ApiServer.java:238)
+	at com.cloud.api.ApiServer.configure(ApiServer.java:191)
+	at com.cloud.utils.component.ComponentContext.initComponentsLifeCycle(ComponentContext.java:111)
+	at com.cloud.servlet.CloudStartupServlet$1.run(CloudStartupServlet.java:54)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 22:08:12,054 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_3f99a2ca
+2014-07-31 22:08:12,054 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_f4109ab5
+2014-07-31 22:08:12,054 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_da9d16e2
+2014-07-31 22:08:12,054 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.api.ApiServer_EnhancerByCloudStack_42959895
+2014-07-31 22:08:12,054 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_3f99a2ca
+2014-07-31 22:08:32,154 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization started
+2014-07-31 22:08:32,191 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Jul 31 22:08:32 CST 2014]; root of context hierarchy
+2014-07-31 22:08:32,220 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [applicationContext.xml]
+2014-07-31 22:08:32,427 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:08:32,446 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'transactionContextBuilder' of type [class com.cloud.utils.db.TransactionContextBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 22:08:32,448 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'actionEventInterceptor' of type [class com.cloud.event.ActionEventInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 22:08:32,458 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1702bc5: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,componentContext,transactionContextBuilder,actionEventInterceptor,instantiatePostProcessor,onwireRegistry,messageSerializer,transportProvider,rpcProvider,messageBus,apiServlet,apiServer,apiDispatcher,entityManagerImpl,stockInvestManagerImpl,stockBasicInfoDaoImpl,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2014-07-31 22:08:32,460 INFO  [utils.component.ComponentContext] (main:null) Setup Spring Application context
+2014-07-31 22:08:32,659 DEBUG [utils.crypt.EncryptionSecretKeyChecker] (main:null) Encryption Type: none
+2014-07-31 22:08:32,688 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization completed in 533 ms
+2014-07-31 22:08:32,715 INFO  [cloud.utils.LogUtils] (main:null) log4j configuration found at D:\workspace\eclipse\stockii-invest\client\target\stockii-client-ui-1.0\WEB-INF\classes\log4j-cloud.xml
+2014-07-31 22:08:32,725 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:08:32,725 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:08:32,888 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_b16f609a
+2014-07-31 22:08:32,889 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_97fbdcc7
+2014-07-31 22:08:32,889 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.api.ApiServer_EnhancerByCloudStack_fff45e7a
+2014-07-31 22:08:32,889 DEBUG [cloud.api.ApiServer] (Timer-2:null) Discovered plugin StockInvestManagerImpl_EnhancerByCloudStack_fcf868af
+2014-07-31 22:08:32,892 ERROR [cloud.api.ApiServer] (Timer-2:null) error initializing api server
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:96)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:374)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at com.cloud.api.ApiServer$ListenerThread.<init>(ApiServer.java:816)
+	at com.cloud.api.ApiServer.init(ApiServer.java:238)
+	at com.cloud.api.ApiServer.configure(ApiServer.java:191)
+	at com.cloud.utils.component.ComponentContext.initComponentsLifeCycle(ComponentContext.java:111)
+	at com.cloud.servlet.CloudStartupServlet$1.run(CloudStartupServlet.java:54)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 22:08:32,893 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_fcf868af
+2014-07-31 22:08:32,893 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_b16f609a
+2014-07-31 22:08:32,893 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_97fbdcc7
+2014-07-31 22:08:32,893 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.api.ApiServer_EnhancerByCloudStack_fff45e7a
+2014-07-31 22:08:32,893 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_fcf868af
+2014-07-31 22:13:29,526 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization started
+2014-07-31 22:13:29,565 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Jul 31 22:13:29 CST 2014]; root of context hierarchy
+2014-07-31 22:13:29,595 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [applicationContext.xml]
+2014-07-31 22:13:29,806 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:13:29,825 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'transactionContextBuilder' of type [class com.cloud.utils.db.TransactionContextBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 22:13:29,828 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'actionEventInterceptor' of type [class com.cloud.event.ActionEventInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 22:13:29,837 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@17d0b7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,componentContext,transactionContextBuilder,actionEventInterceptor,instantiatePostProcessor,onwireRegistry,messageSerializer,transportProvider,rpcProvider,messageBus,apiServlet,apiServer,apiDispatcher,entityManagerImpl,stockInvestManagerImpl,stockBasicInfoDaoImpl,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2014-07-31 22:13:29,840 INFO  [utils.component.ComponentContext] (main:null) Setup Spring Application context
+2014-07-31 22:13:30,046 DEBUG [utils.crypt.EncryptionSecretKeyChecker] (main:null) Encryption Type: none
+2014-07-31 22:13:30,076 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization completed in 549 ms
+2014-07-31 22:13:30,103 INFO  [cloud.utils.LogUtils] (main:null) log4j configuration found at D:\workspace\eclipse\stockii-invest\client\target\stockii-client-ui-1.0\WEB-INF\classes\log4j-cloud.xml
+2014-07-31 22:13:30,113 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:13:30,114 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:13:30,214 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_4ac6ba3e
+2014-07-31 22:13:30,215 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_3153366b
+2014-07-31 22:13:30,215 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.api.ApiServer_EnhancerByCloudStack_994bb81e
+2014-07-31 22:13:30,215 DEBUG [cloud.api.ApiServer] (Timer-2:null) Discovered plugin StockInvestManagerImpl_EnhancerByCloudStack_964fc253
+2014-07-31 22:13:30,228 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_964fc253
+2014-07-31 22:13:30,228 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_4ac6ba3e
+2014-07-31 22:13:30,228 INFO  [cloud.api.ApiServer] (Thread-8:null) ApiServer listening on port 8096
+2014-07-31 22:13:30,228 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_3153366b
+2014-07-31 22:13:30,229 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.api.ApiServer_EnhancerByCloudStack_994bb81e
+2014-07-31 22:13:30,229 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_964fc253
+2014-07-31 22:13:34,193 DEBUG [cloud.api.ApiServlet] (31473893@qtp-2367595-0:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:13:34,634 DEBUG [cloud.api.ApiServlet] (31473893@qtp-2367595-0:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:14:14,875 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization started
+2014-07-31 22:14:14,911 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Jul 31 22:14:14 CST 2014]; root of context hierarchy
+2014-07-31 22:14:14,940 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [applicationContext.xml]
+2014-07-31 22:14:15,147 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:14:15,165 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'transactionContextBuilder' of type [class com.cloud.utils.db.TransactionContextBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 22:14:15,168 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'actionEventInterceptor' of type [class com.cloud.event.ActionEventInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 22:14:15,177 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@17d0b7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,componentContext,transactionContextBuilder,actionEventInterceptor,instantiatePostProcessor,onwireRegistry,messageSerializer,transportProvider,rpcProvider,messageBus,apiServlet,apiServer,apiDispatcher,entityManagerImpl,stockInvestManagerImpl,stockBasicInfoDaoImpl,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2014-07-31 22:14:15,180 INFO  [utils.component.ComponentContext] (main:null) Setup Spring Application context
+2014-07-31 22:14:15,374 DEBUG [utils.crypt.EncryptionSecretKeyChecker] (main:null) Encryption Type: none
+2014-07-31 22:14:15,408 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization completed in 532 ms
+2014-07-31 22:14:15,429 INFO  [cloud.utils.LogUtils] (main:null) log4j configuration found at D:\workspace\eclipse\stockii-invest\client\target\stockii-client-ui-1.0\WEB-INF\classes\log4j-cloud.xml
+2014-07-31 22:14:15,440 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:14:15,441 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:14:15,542 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_48cc52da
+2014-07-31 22:14:15,543 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_2f58cf07
+2014-07-31 22:14:15,543 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.api.ApiServer_EnhancerByCloudStack_975150ba
+2014-07-31 22:14:15,543 DEBUG [cloud.api.ApiServer] (Timer-2:null) Discovered plugin StockInvestManagerImpl_EnhancerByCloudStack_94555aef
+2014-07-31 22:14:15,554 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_94555aef
+2014-07-31 22:14:15,554 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_48cc52da
+2014-07-31 22:14:15,554 INFO  [cloud.api.ApiServer] (Thread-8:null) ApiServer listening on port 8096
+2014-07-31 22:14:15,554 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_2f58cf07
+2014-07-31 22:14:15,554 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.api.ApiServer_EnhancerByCloudStack_975150ba
+2014-07-31 22:14:15,554 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_94555aef
+2014-07-31 22:14:18,597 DEBUG [cloud.api.ApiServlet] (6158942@qtp-4665857-0:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:14:19,033 DEBUG [cloud.api.ApiServlet] (6158942@qtp-4665857-0:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo
+2014-07-31 22:14:23,855 DEBUG [cloud.api.ApiServlet] (12924473@qtp-4665857-2:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo1
+2014-07-31 22:14:23,856 WARN  [cloud.api.ApiServer] (12924473@qtp-4665857-2:null) Unknown API command: getStockDayInfo1
+2014-07-31 22:14:23,861 INFO  [cloud.api.ApiServer] (12924473@qtp-4665857-2:null) Unknown API command: getStockDayInfo1
+2014-07-31 22:14:23,864 DEBUG [cloud.api.ApiServlet] (12924473@qtp-4665857-2:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo1
+2014-07-31 22:15:01,066 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization started
+2014-07-31 22:15:01,101 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Jul 31 22:15:01 CST 2014]; root of context hierarchy
+2014-07-31 22:15:01,129 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [applicationContext.xml]
+2014-07-31 22:15:01,334 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:15:01,350 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'transactionContextBuilder' of type [class com.cloud.utils.db.TransactionContextBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 22:15:01,352 INFO  [context.support.XmlWebApplicationContext] (main:null) Bean 'actionEventInterceptor' of type [class com.cloud.event.ActionEventInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-07-31 22:15:01,361 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@17d0b7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,componentContext,transactionContextBuilder,actionEventInterceptor,instantiatePostProcessor,onwireRegistry,messageSerializer,transportProvider,rpcProvider,messageBus,apiServlet,apiServer,apiDispatcher,entityManagerImpl,stockInvestManagerImpl,stockBasicInfoDaoImpl,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2014-07-31 22:15:01,364 INFO  [utils.component.ComponentContext] (main:null) Setup Spring Application context
+2014-07-31 22:15:01,557 DEBUG [utils.crypt.EncryptionSecretKeyChecker] (main:null) Encryption Type: none
+2014-07-31 22:15:01,588 INFO  [web.context.ContextLoader] (main:null) Root WebApplicationContext: initialization completed in 522 ms
+2014-07-31 22:15:01,609 INFO  [cloud.utils.LogUtils] (main:null) log4j configuration found at D:\workspace\eclipse\stockii-invest\client\target\stockii-client-ui-1.0\WEB-INF\classes\log4j-cloud.xml
+2014-07-31 22:15:01,620 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:15:01,620 INFO  [factory.annotation.AutowiredAnnotationBeanPostProcessor] (main:null) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-31 22:15:01,717 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_10ff1bf4
+2014-07-31 22:15:01,718 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_f78b9821
+2014-07-31 22:15:01,718 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.cloud.api.ApiServer_EnhancerByCloudStack_5f8419d4
+2014-07-31 22:15:01,718 DEBUG [cloud.api.ApiServer] (Timer-2:null) Discovered plugin StockInvestManagerImpl_EnhancerByCloudStack_5c882409
+2014-07-31 22:15:01,729 INFO  [utils.component.ComponentContext] (Timer-2:null) Configuring com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_5c882409
+2014-07-31 22:15:01,729 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.dao.StockBasicInfoDaoImpl_EnhancerByCloudStack_10ff1bf4
+2014-07-31 22:15:01,729 INFO  [cloud.api.ApiServer] (Thread-8:null) ApiServer listening on port 8096
+2014-07-31 22:15:01,729 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.dao.EntityManagerImpl_EnhancerByCloudStack_f78b9821
+2014-07-31 22:15:01,730 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.cloud.api.ApiServer_EnhancerByCloudStack_5f8419d4
+2014-07-31 22:15:01,730 INFO  [utils.component.ComponentContext] (Timer-2:null) Starting com.stockii.invest.service.manager.StockInvestManagerImpl_EnhancerByCloudStack_5c882409
+2014-07-31 22:15:04,977 DEBUG [cloud.api.ApiServlet] (31473893@qtp-2367595-0:null) ===START===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo1
+2014-07-31 22:15:05,416 DEBUG [cloud.api.ApiServlet] (31473893@qtp-2367595-0:null) ===END===  0:0:0:0:0:0:0:1 -- GET  command=getStockDayInfo1

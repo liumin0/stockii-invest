@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main" if="${quickcloud}">
+  <echo>quickcloud</echo>
+  <replaceregexp replace="com.cloud.consoleproxy.StaticConsoleProxyManager" byline="true" file="D:\workspace\eclipse\stockii-invest\client/target/generated-webapp/WEB-INF/classes/applicationContext.xml" match="com.cloud.consoleproxy.ConsoleProxyManagerImpl"/>
+</target>
+</project>
